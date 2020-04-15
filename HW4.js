@@ -1,4 +1,4 @@
-1
+﻿1
 
 let today = new Date().toLocaleDateString('fa-IR');
 console.log(today);
@@ -330,6 +330,7 @@ let map = function(number) {
     map(70);
 -----------------------------------------------------------------------------------------
 10
+
 let add_minutes =  function (dt, minute) {
     return new Date(dt.getTime() + minutes*60000);
 }
